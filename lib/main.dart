@@ -32,7 +32,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('GetX State Mangement',style: TextStyle(fontSize: 14,color: Colors.white),),centerTitle: true,backgroundColor: Colors.blueAccent,),
+      appBar: AppBar(title: Text('Image Picker',style: TextStyle(fontSize: 14,color: Colors.white),),centerTitle: true,backgroundColor: Colors.blueAccent,),
       body: Obx(() => Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
